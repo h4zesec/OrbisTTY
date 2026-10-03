@@ -264,7 +264,7 @@ int OrbisTTY::get_y_offset(int line) {
 	return (line * 17) + 17;
 }
 
-void OrbisTTY::orbis_printf(const char* fmt, ...) {
+void OrbisTTY::orbis_printfln(const char* fmt, ...) {
 	char buffer[512];
 
 	va_list args;
