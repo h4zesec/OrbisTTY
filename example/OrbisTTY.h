@@ -93,7 +93,7 @@ namespace OrbisTTY {
 	bool set_font                (const char* font_path);
 	void move_lines_up           (void);
 	int  get_y_offset            (int line);
-	void orbis_printf            (const char* fmt, ...);
+	void orbis_printfln          (const char* fmt, ...);
 }
 
 #endif
