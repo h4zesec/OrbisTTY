@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "OrbisTTY.h"
 
-#define printf(...) OrbisTTY::orbis_printf(__VA_ARGS__)
+#define printf(...) OrbisTTY::orbis_printfln(__VA_ARGS__)
 
 int main() {
     if (!OrbisTTY::init("/app0/assets/fonts/Inconsolata-Regular.ttf"))
